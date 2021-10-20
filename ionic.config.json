@@ -1,0 +1,7 @@
+{
+  "name": "PocketCalc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

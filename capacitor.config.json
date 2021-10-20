@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "PocketCalc",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
