@@ -1,20 +1,18 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
+    <ion-title class="center">
+      Calculator App
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-slide>
+    <img src="assets/Android-Calculator.png"/>
+    <h2>Your friendly pocket Calculator!</h2>
+    <p>The <b>ionic calculator app</b> contains operations like addition, subtraction, multiplication and division.</p>
+    <ion-button fill="clear" (click)="navigate()" >Use App Now <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+  </ion-slide>
 </ion-content>
+  
