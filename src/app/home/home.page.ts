@@ -10,7 +10,19 @@ export class HomePage {
 
   public constructor(private router:Router){}
 
- navigate(){
-  this.router.navigate(['/calculator']);
- }
+  calculator(){
+   this.router.navigate(['/calculator']);
+  }
+ 
+  BMI(){
+   this.router.navigate(['/bmi']);
+  }
+ 
+  calories(){
+   this.router.navigate(['/calories']);
+  }
+ 
+  about(){
+   this.router.navigate(['/about']);
+  }
 }
